@@ -1,2 +1,6 @@
-# Dependency directories
+# dependency directories
 node_modules
+
+# output directories
+channel*
+
