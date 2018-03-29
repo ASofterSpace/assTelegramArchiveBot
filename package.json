@@ -1,0 +1,12 @@
+{
+  "name": "assTelegramArchiveBot",
+  "version": "0.0.1",
+  "description": "A bot that archives what is said on telegram",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "express": "^4.16.0"
+  }
+}
