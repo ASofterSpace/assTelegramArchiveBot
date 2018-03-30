@@ -34,6 +34,20 @@ npm start
 
 It will start to listen on port 3000.
 
+To start the bot from an SSH session and keep it alive even after the session is stopped, you can e.g. use a command such as:
+
+```
+npm start &
+disown
+```
+
+To then stop it again later, kill the processes that come up when calling these two commands:
+
+```
+ps -aux | grep npm
+ps -aux | grep 'node main.js'
+```
+
 ### Firewall
 
 You might have to open up the port in your firewall, if it is not open already, which can be seen here:
