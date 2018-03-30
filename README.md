@@ -83,7 +83,7 @@ Finally, you need to tell Telegram that whenever a message is sent to newly crea
 You can do this by calling:
 
 ```
-curl -F "url=http://[YOUR_SERVER]/new-message"  https://api.telegram.org/bot[YOUR_BOT_TOKEN]/setWebhook
+curl -F "url=https://[YOUR_SERVER]/new-message"  https://api.telegram.org/bot[YOUR_BOT_TOKEN]/setWebhook
 ```
 
 Now when someone writes to your bot on telegram, for each distinct channel a folder should be created, and each folder should contain a log file for each day that any messages have been received, with all of them inside.
