@@ -94,3 +94,5 @@ Now when someone writes to your bot on telegram (possibly needing to write `/sta
 
 We at A Softer Space really love the Unlicense, which pretty much allows anyone to do anything with this source code.
 For more info, see the file UNLICENSE.
+
+If you desperately need to use this source code under a different license, [contact us](mailto:moya@asofterspace.com) - I am sure we can figure something out.
