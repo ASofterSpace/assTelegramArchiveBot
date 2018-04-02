@@ -22,7 +22,9 @@ npm install --save express body-parser
 
 ## Configure
 
-[Register a bot on Telegram](https://core.telegram.org/bots) and get your own bot token, which you will need later on.
+Talk to the Botfahter to [register a bot on Telegram](https://core.telegram.org/bots) and get your own bot token, which you will need later on.
+
+While talking to the botfather, also make it clear to him to allow the bot to be part of groups (which is by default enabled, so nothing to do here usually), and to disable group privacy for the bot (as it otherwise cannot do its job of archiving the conversation.) 
 
 ## Start
 
@@ -86,7 +88,7 @@ You can do this by calling:
 curl -F "url=https://[YOUR_SERVER]/new-message"  https://api.telegram.org/bot[YOUR_BOT_TOKEN]/setWebhook
 ```
 
-Now when someone writes to your bot on telegram, for each distinct channel a folder should be created, and each folder should contain a log file for each day that any messages have been received, with all of them inside.
+Now when someone writes to your bot on telegram (possibly needing to write `/start` in the conversation once), for each distinct channel a folder should be created, and each folder should contain a log file for each day that any messages have been received, with all of them inside.
 
 ## License
 

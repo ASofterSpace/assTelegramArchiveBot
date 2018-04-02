@@ -18,7 +18,7 @@ function getCurrentChannelFile(channelId) {
         var yyyy = today.getFullYear();
         var mm = ('0' + (today.getMonth()+1)).slice(-2);
         var dd = ('0' + today.getDate()).slice(-2);
-        var dateStr = dd+"-"+mm+"-"+yyyy;
+        var dateStr = yyyy+"-"+mm+"-"+dd;
 
 	return channelStr + "/" + dateStr + ".txt";
 }
